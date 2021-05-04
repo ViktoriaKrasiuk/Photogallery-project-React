@@ -1,0 +1,18 @@
+.modalBody{
+    margin: auto;
+    font-size: 16px;
+    width: 300px;
+    max-height: 500px;
+  }
+   .modalWrapper{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    overflow:hidden;
+    z-index: 40;
+    background-color:rgba(237, 245, 242, 0.13)
+  }

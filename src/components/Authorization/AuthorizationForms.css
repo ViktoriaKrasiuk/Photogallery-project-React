@@ -1,0 +1,31 @@
+.mainLayout {
+    display: flex;
+    margin: auto;
+}
+.registrationForm {
+    width: 300px;  
+    height: 470px;
+}
+.loginForm {
+    width: 300px;  
+    height: 270px;
+} 
+
+.inputWrapper{
+    width: 200px;
+    height: 50px;
+}
+
+.formWrapper{
+    width: 200px; 
+    font-size: 12px;
+}
+
+.btnWrapper{
+    /* display: block; */
+}
+
+.myBtn{
+    width: 150px;
+    height: 30px;
+}

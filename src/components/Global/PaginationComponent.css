@@ -1,0 +1,10 @@
+.paginationComponent{
+  display: flex;
+  font-weight: 700;
+  
+}
+
+.paginationNumber{
+  margin-left: 10px;
+  margin-right: 10px;
+}

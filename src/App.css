@@ -1,0 +1,153 @@
+body {
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #434d50a6 5%, #000000 74%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: contain;
+  color:  rgb(49, 202, 240);
+}
+
+form {
+  border: 1px solid  rgb(49, 202, 240);;
+  border-radius: 8px;
+  box-shadow: 0 14px 28px rgba(253, 249, 249, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+  padding: 20 20 px;
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  margin: auto;
+  margin-top: 110px;
+}
+
+form:hover{
+  box-shadow: 0 24px 48px rgba(253, 249, 249, 0.25), 0 20px 20px rgba(0,0,0,0.22);
+}
+
+button {
+  border-radius: 12px;
+  background-color: rgb(25, 26, 25); 
+  transition: 0.8s;
+  color:  rgb(49, 202, 240);
+  border: 1px solid  rgb(49, 202, 240);
+}
+
+button:hover{
+  text-shadow: 2px 2px 20px  #2c90c6, #fff 0 -1px 2px;
+  background-color: black;
+  cursor: pointer;
+  transform: scale(0.98);
+}
+
+input {
+  width: 200px;
+  border-radius: 2px;
+  border: 1px solid  rgb(49, 202, 240);
+  background-color: black;
+  color:  rgb(49, 202, 240);
+}
+input:hover{
+  background-color: rgb(29, 28, 28);
+}
+
+input[type='checkbox'] {
+  width: 20px;
+  height:20px;
+}
+
+.App {
+  display: block;
+  flex-direction: row-reverse;  
+  justify-content: center;
+  flex-grow: 1;
+ } 
+ 
+.categoryForm{
+  font-size: 10px;
+  width: 200px;
+  height: 120px;
+ 
+}
+
+.btnWrapper{
+  display: flex;
+  flex-direction: column;
+  margin: auto auto;
+  justify-content: space-between;
+  align-items:center;
+  margin-top: 10px;
+}
+
+.ImageBtnWrapper{
+  display: flex;
+  flex-direction: row;
+  margin: auto auto;
+  justify-content: space-between;
+  align-items:center;
+  margin: 20px;
+  height: 20px;
+}
+
+.navigationWrapper{
+  display: flex;
+  flex-direction: row;
+  margin: auto auto;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.navigationWrapper * {
+  color: rgb(49, 202, 240);
+  font-weight: 700;
+}
+.navigationSelects {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.navigationSelects *{
+  background-color: #000;
+}
+
+.navigationWrapper *:hover {
+  cursor: pointer;
+}
+.actionsWrapper{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #1f1f1f;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.loadNewImage{
+  display: inline-flex;
+}
+.createNewCategoryWrapper{
+  margin-left: 400px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.createNewCategoryWrapper input{
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.createNewCategoryWrapper button{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.loadBtnWrapper:hover{
+  cursor: pointer;
+}
+.singleCategoryTitle{
+  margin-left: 20px;
+}
+
+.pointer:hover{
+  cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.titleSearch{
+  /* margin: 20px;
+  height: 50px;
+  width: 90vw;
+  margin-left: 250px; */
+}
+
+.titleSearch input{
+  height: 30px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.titleSearch button{
+  height: 30px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+
+}

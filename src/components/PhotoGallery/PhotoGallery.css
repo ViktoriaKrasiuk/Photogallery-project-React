@@ -1,0 +1,52 @@
+.photogalleryList{
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding-left:0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.ImageListItem{
+    border: 1px solid  rgb(49, 202, 240);;
+    border-radius: 8px;
+    box-shadow: 0 14px 28px rgba(253, 249, 249, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding: 20 20 px;
+    background-color: #2d3436;
+    background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+    list-style: none;
+}
+.selectedImageListItem{
+    border: solid 3px rgb(49, 202, 240);
+    opacity: 0.8;
+    background-color: rgba(186, 241, 241, 0.774);
+}
+
+.ImageItem{
+    width: 100%;
+    height: 300px;
+    padding-top: 10px;
+}
+
+
+.ImageItem img {
+    object-fit: contain;
+    width: 100%;
+    max-width: 100%;
+  }
+
+.ImageItemRefWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 700;
+}
+.ImageItemRef:hover{
+    cursor: pointer;
+}
+.ImageItemInfoWrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
